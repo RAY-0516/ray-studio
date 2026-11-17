@@ -1,0 +1,33 @@
+[
+  {
+    "id": "520",
+    "title": "520 专区",
+    "date": "2026.05",
+    "subtitle": "第一间小屋 · 星空与照片",
+    "cover": "assets/covers/520.jpg",
+    "back": "assets/backs/13.jpg",
+    "accent": "#e8a6b8",
+    "href": "./520/",
+    "status": "live"
+  },
+  {
+    "id": "newyear",
+    "title": "新年专区",
+    "date": "2027.01",
+    "subtitle": "敬请期待",
+    "back": "assets/backs/5.jpg",
+    "accent": "#e0b15f",
+    "status": "soon",
+    "cover": "assets/covers/soon-newyear.svg"
+  },
+  {
+    "id": "holiday",
+    "title": "小长假专区",
+    "date": "2027.05",
+    "subtitle": "敬请期待",
+    "back": "assets/backs/5.jpg",
+    "accent": "#8fb8d8",
+    "status": "soon",
+    "cover": "assets/covers/soon-holiday.svg"
+  }
+]

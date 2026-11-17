@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title></title>
+    <link rel="icon" type="image/x-icon" href="%E5%9B%BE%E6%A0%87.ico" sizes="96x96">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "21ab3652700045d1a6dfdf0b37c22234"}'></script>
+<style>
+#enter-veil{position:fixed;inset:0;z-index:99999;background:rgba(6,5,10,0.55);backdrop-filter:blur(28px) brightness(0.75);-webkit-backdrop-filter:blur(28px) brightness(0.75);transition:opacity 1.15s ease,backdrop-filter 1.15s ease,-webkit-backdrop-filter 1.15s ease;pointer-events:none}
+#enter-veil.clear{opacity:0;backdrop-filter:blur(0) brightness(1);-webkit-backdrop-filter:blur(0) brightness(1)}
+</style>
+</head>
+<body class="locked">
+<script src="main.js"></script>
+<div id="enter-veil"></div>
+<script>
+(function(){
+  var v=document.getElementById('enter-veil');
+  function clear(){ v.classList.add('clear'); setTimeout(function(){ if(v&&v.parentNode) v.parentNode.removeChild(v); },1400); }
+  if(document.readyState==='complete'){ setTimeout(clear,200); }
+  else { window.addEventListener('load', function(){ setTimeout(clear,200); }); }
+  setTimeout(clear, 2600);
+})();
+</script>
+</body>
+</html>
